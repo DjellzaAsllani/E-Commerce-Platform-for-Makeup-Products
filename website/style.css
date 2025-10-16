@@ -1,0 +1,476 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration:none;
+    text-align: center;
+  }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color:#FF69B4;
+} 
+nav ul{
+  float: left;
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  font-size: 100%;
+ 
+}
+nav li{
+  margin-top: 0%;
+  display: inline-block;
+  padding: 1em;
+  box-sizing: border-box;
+}
+nav img {
+  width: 30%;
+  border-radius: 10%;
+
+}
+nav a {
+  padding: 1.4em;
+  transition: all 0.4s ease-in-out;
+}
+nav li a:hover {
+  background-color: rgb(255, 197, 233 );
+}
+.buttons {
+  float: right;
+  display: flex;
+}
+.buttons button {
+  border-radius: 10%;
+  border: palevioletred;
+  padding: 1%;
+  text-align: center;
+  
+}
+.buttons button{
+  margin-top: 22%;
+  margin-left: 17%;
+  width: 150px;
+  height: 3em;
+  margin-bottom: 10%;
+  border-radius: 10%;
+  text-align: center;
+  
+
+}
+button{
+  background-color: rgb(255, 215, 240 );
+  border-radius: 10%;
+  text-align: center;
+}
+body{
+  background-color: rgb(255, 215, 240 );
+}
+footer {
+  padding: 40px 0;
+  font-family: Arial, sans-serif;
+}
+footer h3 {
+  font-size:25px;
+  text-shadow: 1px 1px 2px #000000;
+ }
+footer li{
+  list-style-type: none;
+  margin-bottom: 1%;
+  line-height: 200%;
+}
+footer ul{
+  list-style-type: none;
+  margin-bottom: 1%;
+  line-height: 200%;
+}
+footer a{
+  text-decoration: none;
+  color: #3d3d3d;
+}
+footer div{
+  float: left;
+  margin: 3% 2%;
+}
+footer a:hover {
+  color: rgba(121, 119, 119, 0.69);
+  transition: all 0.3s ease-in-out;
+}
+footer label{
+  font-size: 120%;
+}
+#slogan{
+  font-size: 470%;
+  margin-top: 0px;
+  padding-top: 4%;
+  text-align: center;
+  color: #3d3d3d;
+  text-shadow: 3px 2px 4px #000000;
+}
+.order {
+  display: inline-block;
+  background-color:rgb(255, 110, 199) ;
+  color: #fff; 
+  padding: 15px 30px; 
+  font-size: 18px; 
+  font-weight: bold; 
+  text-transform: uppercase; 
+  border: palevioletred; 
+  border-radius: 5px;
+  cursor: pointer;
+}
+.links{
+  margin-left: 20%;
+}
+.contacts{
+  margin-left:40%;
+}
+  .aboutus-paragraph{
+  margin-bottom: 5%;
+  
+  }
+  .aboutus-header{
+  text-shadow: 1px 1px 2px #000000;
+  margin-bottom: 1%;
+  } 
+  .aboutus-container  {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 5px;
+    text-align: center;
+    width: 300px; 
+  }
+  .loremipsum {
+    margin: 10px;
+    line-height: 150%;
+  }
+
+
+.makeup-companies-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}
+
+.makeup-search-container {
+  margin-bottom: 50px;
+}
+#makeup-search-input {
+  padding: 10px;
+  margin-top: 12%;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+#makeup-search-button {
+  padding: 10px 20px;
+  background-color: #FF3366; 
+  border: #fff;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 5%;
+
+}
+
+.makeup-filter-container {
+  margin-top: 10px;
+}
+
+#makeup-category-select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.makeup-partner-companies {
+  font-size: 24px;
+  margin-bottom: 10px;
+  padding-top: 25px;
+}
+.makeup-partner-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.makeup-partner-card {
+  max-width: 300px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #fff;
+}
+.makeup-container {
+  text-align: center;
+}
+
+.makeup-listing {
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #fff;
+  width: 300px; 
+}
+
+.makeup-listing img {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.makeup-listing h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.makeup-listing p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.makeup-listing a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #FF3366; 
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.makeup-listing a:hover {
+  background-color: #D12345;}
+
+
+.makeup-partner-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+
+.makeup-partner-card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+
+.makeup-partner-card p {
+  font-size: 16px;
+}
+
+.makeup-partner-card a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #FF3366; 
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.makeup-partner-card a:hover {
+  background-color: #D12345;
+}
+.map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  background-color: #FF3366;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #D12345;
+}
+.location {
+  margin-left: 70%;
+}
+
+.login-container {
+  text-align: center;
+  background-color: #f7f1f1;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 450px;
+}
+.login {
+  color: #ff3366;
+  font-size: 28px;
+  margin-bottom: 50px;
+}
+.inpute {
+  text-align: center;
+}
+.users-data {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  font-size: 16px;
+}
+.login-button {
+  text-align: center;
+}
+.enter-login {
+  background-color: #ff3366;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+.x-button {
+  background-color: transparent;
+  border: none;
+  color: #ff3366; 
+  font-size: 24px;
+  cursor: pointer;
+  padding: 20px;
+  margin-bottom: 900%;
+  margin-left: 900%;
+}
+.forgotpassword-container {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.users-header {
+  color: #ff3366;
+  font-size: 28px;
+  margin-bottom: 150px;
+}
+.enter-forgotpw{
+  background-color: #ff3366;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 150px;
+  margin-left: 50px;
+  
+}
+.enter-forgotpw:hover {
+  background-color: #e62958;
+}
+.users-data1 {
+  background-color: #fff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-bottom: 150px;
+}
+.register-container {
+  text-align: center;
+  background-color: #f7f1f1;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.register {
+  color: #ff3366;
+  font-size: 28px;
+  margin-bottom: 70px;
+  margin-top: 50px;
+}
+.enter-register {
+  background-color: #ff3366;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.xbutton {
+  background-color: transparent;
+  border: none;
+  color: #ff3366; 
+  font-size: 24px;
+  cursor: pointer;
+}
